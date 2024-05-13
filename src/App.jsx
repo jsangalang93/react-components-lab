@@ -44,14 +44,14 @@ const App = () => {
   <>
     <h1>Local Weather</h1>
     <section>
-      <ul>
+      
       {weatherForecasts.map((weather) => (
         <WeatherListItem
         key={weatherForecasts.id}
         weather={weather}
         />
       ))}
-      </ul>
+      
     </section>
   </>
   );

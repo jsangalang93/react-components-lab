@@ -1,5 +1,6 @@
 section {
     display: flex;
+    list-style-type: none;
   }
   
   section .weather {
@@ -7,9 +8,12 @@ section {
     flex: 1;
     padding: 10px;
     text-align: center;
+    flex-direction: row;
+    
     
   }
   
   .weather span {
     font-weight: bold;
+    
   }
